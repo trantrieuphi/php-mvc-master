@@ -1,0 +1,20 @@
+{
+    "name": "ndc/mvc_build",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ChienNguyenDac",
+            "email": "chien.nguyen@enpii.com"
+        }
+    ],
+    "require": {
+        "psr/http-client": "^1.0",
+        "psr/log": "^1.0",
+        "nyholm/psr7": "^1.3",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
